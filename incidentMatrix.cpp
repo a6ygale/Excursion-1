@@ -22,7 +22,13 @@ vector<vector<int>> incidentMatrix(vector<vector<int>> elements, int nodes){
                 colM.push_back(0); 
             }
         }
-        incidentMT.push_back(colM); 
+
+
+        //if you dont want reduced take out if statement
+        if(i>0){
+            incidentMT.push_back(colM); 
+        }
+        
     }
         // //testing
         // for (int x=0; x<3; x++){
@@ -30,7 +36,7 @@ vector<vector<int>> incidentMatrix(vector<vector<int>> elements, int nodes){
         //         cout<<incidentMT[x][y]<<endl; 
         //     }
         // }
-        return Transpose(incidentMT); 
+    return Transpose(incidentMT); 
 
 
 }
