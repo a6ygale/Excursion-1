@@ -54,13 +54,13 @@ vector<vector<int>> readNet(string filename){
      }
     file.close();
 
-    // //testing
-    // for (int x=0; x<3; x++){
-    //     for(int y=0; y<4; y++){
-    //         cout<<elements[x][y]<<endl; 
-    //     }
-    // }
-    // return elements; 
+    //testing
+    for (int x=0; x<3; x++){
+        for(int y=0; y<4; y++){
+           cout<<elements[x][y]<<endl; 
+        }
+    }
+    return elements; 
 }
 
 //once be have number of nodes, branches will be nodes-1 
@@ -117,7 +117,11 @@ vector<vector<int>> incidentMatrix(vector<vector<int>> elements, int nodes){
                 colM.push_back(0); 
             }
         }
+
+        //if you dont want reduced take out if statement
+        if(i>0){
         incidentMT.push_back(colM); 
+        }
     }
         // //testing
         // for (int x=0; x<3; x++){
@@ -125,7 +129,7 @@ vector<vector<int>> incidentMatrix(vector<vector<int>> elements, int nodes){
         //         cout<<incidentMT[x][y]<<endl; 
         //     }
         // }
-        return Transpose(incidentMT); 
+    return Transpose(incidentMT); 
 
 
 }
@@ -224,15 +228,15 @@ vector<vector<int>> multiplyMatrices(vector<vector<int>>& mat_1,vector<vector<in
 int main(){
     
     vector<vector<int>> matrix = readNet("netlist.txt"); 
-    int u = countNodes( matrix ); 
-    //cout<<u<<endl;
-    vector<vector<int>> inc = incidentMatrix(matrix,u); 
-    //testing
-    for (int x=0; x<3; x++){
-        for(int y=0; y<3; y++){
-            cout<<inc[x][y]<<endl; 
-        }
-    }
+    // int u = countNodes( matrix ); 
+    // //cout<<u<<endl;
+    // vector<vector<int>> inc = incidentMatrix(matrix,u); 
+    // //testing
+    // for (int x=0; x<3; x++){
+    //     for(int y=0; y<3; y++){
+    //         cout<<inc[x][y]<<endl; 
+    //     }
+    // }
     
 
     return 0; 
