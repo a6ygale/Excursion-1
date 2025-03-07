@@ -44,6 +44,13 @@ void SparseMatrix::printSparseMatrix() {
 	}
 }
 
+// working test function showing output:
+// 0 2 1
+// 2 0 2
+// showing element 1 is in the original row 0, column 2 (top right)
+// and showing element 2 is in row 2, column 0 (bottom left)
+
+/*
 int main() {
 	vector<vector<int>> testMatrix =
 	{ {0, 0, 1},
@@ -54,3 +61,4 @@ int main() {
 	s.printSparseMatrix();
 	return 0;
 }
+*/
