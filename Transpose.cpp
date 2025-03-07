@@ -5,10 +5,16 @@
 //#include "functions.h"
 using namespace std;
 
-vector<vector<int>> MT;
-vector<int> newRow; 
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//  Transpose requires a 2D vector input and switches
+//  all row and column elements, returning the transposed matrix
+///////////////////////////////////////////////////////////////////////////////////////////
+
 
 vector<vector<int>> Transpose(vector<vector<int>> matrix){
+    vector<vector<int>> MT;
+    vector<int> newRow; 
     for(int i =0 ; i< matrix[0].size(); i++){
         newRow = {}; 
         for(int j =0; j<matrix.size(); j++){
