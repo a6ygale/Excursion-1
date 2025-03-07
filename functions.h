@@ -325,10 +325,10 @@ vector<vector<double>> multiplyMatrices(vector<vector<double>>& mat_1,vector<vec
 ///////////////////////////////////////////////////////////////////////////////////////////
 
 
-vector<vector<int>> identityMatrix(vector<vector<int>> elements)
+vector<vector<double>> identityMatrix(vector<vector<double>> elements)
 {
-    vector<vector<int>> identityM;
-    vector<int> coM;  
+    vector<vector<double>> identityM;
+    vector<double> coM;  
 
     int size=elements.size(); //size is equal to number of elements
 
