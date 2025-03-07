@@ -7,15 +7,24 @@ using namespace std;
 
 
 
-//2d matrix holding values [V/R] [S] [D] [Val]
-//with every column as new element
-vector<vector<int>> elements; 
-vector<int> column; 
-string value; 
+///////////////////////////////////////////////////////////////////////////////////////////
+//  readNet requires a string filename in text format,
+//  returning all information contained as 
+//  row = element of circuit
+//  row[0] = 0 or one (V/R respectively)
+//  row[1] = source node
+//  row[2] = destination node
+//  row[3] = value of element voltage or resistance
+///////////////////////////////////////////////////////////////////////////////////////////
 
-
-//creates matrix from text file
 vector<vector<int>> readNet(string filename){
+
+    //2d matrix holding values [V/R] [S] [D] [Val]
+    //with every column as new element
+    vector<vector<int>> elements; 
+    vector<int> column; 
+    string value; 
+
     ifstream file(filename);
     string line; //holds a line in txt file as string
     
@@ -56,11 +65,5 @@ vector<vector<int>> readNet(string filename){
      }
     file.close();
 
-    //testing
-    for (int x=0; x<3; x++){
-        for(int y=0; y<4; y++){
-            cout<<elements[x][y]<<endl; 
-        }
-    }
     return elements; 
 }
