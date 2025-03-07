@@ -5,7 +5,12 @@
 #include "functions.h"
 using namespace std; 
 
-//takes in 2D matrix and prints to check outputs
+///////////////////////////////////////////////////////////////////////////////////////////
+//  printVector2D requires a 2D vector input and prints all
+//  elements in terminal to check outputs of various functions
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
 void printVector2D(vector<vector<int>> e){
     for (int x=0; x<e.size(); x++){
         for(int y=0; y<e[0].size(); y++){
