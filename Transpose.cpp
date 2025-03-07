@@ -21,13 +21,6 @@ vector<vector<int>> Transpose(vector<vector<int>> matrix){
             newRow.push_back(matrix[j][i]); 
         }
         MT.push_back(newRow); 
-
     }
-    //  //testing
-    // for (int x=0; x<3; x++){
-    //     for(int y=0; y<3; y++){
-    //         cout<<MT[x][y]<<endl; 
-    //     }
-    // } 
     return MT;
 }
