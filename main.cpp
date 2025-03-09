@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cmath>
 #include <fstream>
 #include "functions.h"
 #include "SparseMatrix.h"
