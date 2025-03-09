@@ -1,0 +1,30 @@
+﻿  NMatrix.cpp
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\NMatrix.cpp(18,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  countNodes.cpp
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\countNodes.cpp(47,28): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  incidentMatrix.cpp
+  main.cpp
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\SparseMatrix.h(25,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\SparseMatrix.h(26,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  matrixInversion.cpp
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\matrixInversion.cpp(16,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\matrixInversion.cpp(92,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  multiplyMatrices.cpp
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\multiplyMatrices.cpp(46,36): warning C4244: '+=': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\multiplyMatrices.cpp(46,36): warning C4244:         with
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\multiplyMatrices.cpp(46,36): warning C4244:         [
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\multiplyMatrices.cpp(46,36): warning C4244:             _Ty=double
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\multiplyMatrices.cpp(46,36): warning C4244:         ]
+  outputNet.cpp
+  printVector2D.cpp
+  readNet.cpp
+  systemMatrix.cpp
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\systemMatrix.cpp(23,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\systemMatrix.cpp(24,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\systemMatrix.cpp(25,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Excursion 1.vcxproj -> C:\Users\Max\OneDrive - University of Florida\Senior Year\EEL4837 - Prog for EE 2\Excursion 1 Github\x64\Debug\Excursion 1.exe
