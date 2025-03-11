@@ -22,7 +22,7 @@ int countNodes(vector<vector<double>> elements) {
              n=elements[i][2]; 
          }
     }
-    return n-1; 
+    return n+1; 
 
     /*
     //start off with zero node only included in vect of nodes
