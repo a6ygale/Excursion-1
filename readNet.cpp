@@ -48,12 +48,12 @@ vector<vector<double>> readNet(string filename) {
             }
 
             //R=1
-            if (value[0] == 'R') {
+            else if (value[0] == 'R') {
                 column.push_back(1);
             }
 
             //if its already a digit go ahead and add it
-            if (isdigit(value[0])) {
+            else{
                 column.push_back(std::stod(string(value)));
             }
         }
