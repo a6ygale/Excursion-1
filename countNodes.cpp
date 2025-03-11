@@ -13,18 +13,9 @@ using namespace std;
 ///////////////////////////////////////////////////////////////////////////////////////////
 
 int countNodes(vector<vector<double>> elements) {
-    int n = 0; 
-    for (int i=0; i<elements.size(); i++){
-        if(elements[i][1]>n){
-            n=elements[i][1]; 
-        }
-        if(elements[i][2]>n){
-            n=elements[i][2]; 
-        }
-    }
-    return n; 
 
-    /*
+
+    
     //start off with zero node only included in vect of nodes
     //mentioned within netlist
     vector<double> uniqueNodes = { 0 };
@@ -56,5 +47,5 @@ int countNodes(vector<vector<double>> elements) {
         }
     }
     return uniqueNodes.size();
-    */
+    
 }
